@@ -1,5 +1,9 @@
 # thunderbird-mcp
 
+[![CI](https://github.com/agimenez-dev/thunderbird-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/agimenez-dev/thunderbird-mcp/actions/workflows/ci.yml)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A read-only [MCP](https://modelcontextprotocol.io) server that lets an LLM
 search and read your **Thunderbird** email — locally, with no IMAP connection
 and no credentials.
