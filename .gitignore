@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs / tooling
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+
+# uv
+uv.lock
+
+# Local data — never commit a real mail snapshot
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
