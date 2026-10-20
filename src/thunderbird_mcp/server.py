@@ -109,8 +109,14 @@ def tb_thread(conversation_id: int, body_chars: int = 1500) -> list[dict]:
 
 
 def main() -> None:
-    mcp.run()
-
+    try:
+        mcp.run()
+    except KeyboardInterrupt:
+        try:
+            print("MCP server stopped.", file=sys.stderr)
+        except Exception:
+            pass
+        return 130
 
 if __name__ == "__main__":
     main()

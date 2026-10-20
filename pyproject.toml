@@ -12,7 +12,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Topic :: Communications :: Email",
 ]
-dependencies = ["mcp[cli]>=1.6.0"]
+dependencies = ["mcp[cli]>=1.6.0,<2"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0", "ruff>=0.4"]
